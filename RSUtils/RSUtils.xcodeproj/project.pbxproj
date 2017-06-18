@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		E2FE75A41EF6D51D0098AA0E /* RSUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = E2FE75A21EF6D51D0098AA0E /* RSUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2FE75AC1EF6D5320098AA0E /* RSLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = E2FE75AA1EF6D5320098AA0E /* RSLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2FE75AD1EF6D5320098AA0E /* RSLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FE75AB1EF6D5320098AA0E /* RSLogger.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E2FE759F1EF6D51D0098AA0E /* RSUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RSUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2FE75A21EF6D51D0098AA0E /* RSUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSUtils.h; sourceTree = "<group>"; };
 		E2FE75A31EF6D51D0098AA0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2FE75AA1EF6D5320098AA0E /* RSLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSLogger.h; sourceTree = "<group>"; };
+		E2FE75AB1EF6D5320098AA0E /* RSLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSLogger.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,8 @@
 			isa = PBXGroup;
 			children = (
 				E2FE75A21EF6D51D0098AA0E /* RSUtils.h */,
+				E2FE75AA1EF6D5320098AA0E /* RSLogger.h */,
+				E2FE75AB1EF6D5320098AA0E /* RSLogger.m */,
 				E2FE75A31EF6D51D0098AA0E /* Info.plist */,
 			);
 			path = RSUtils;
@@ -60,6 +66,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2FE75A41EF6D51D0098AA0E /* RSUtils.h in Headers */,
+				E2FE75AC1EF6D5320098AA0E /* RSLogger.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2FE75AD1EF6D5320098AA0E /* RSLogger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +307,7 @@
 				E2FE75A91EF6D51D0098AA0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
